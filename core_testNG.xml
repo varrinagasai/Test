@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="COREAPI_Customers">
+	<parameter name="username" value="2057000012" />
+	<parameter name="password" value="123456" />
+	<parameter name="mvno_value" value="970200" />
+	<parameter name="externalReference" value="CLAMP_MVNO" />
+	<parameter name="channel" value="QA" />
+	<parameter name="comments" value="TEUM_API" />
+	<test name="Customers">
+		<classes>
+			<class name="customers.Create_Customer" />
+		</classes>
+	</test>
+</suite>

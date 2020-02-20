@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [COREAPI_2.5]">
+  <test thread-count="5" name="Swagger(failed)">
+    <classes>
+      <class name="core_Swagger.Swagger_Doc">
+        <methods>
+          <include name="getBalanceAdjustmentsAPI"/>
+          <include name="getAddressesAPI"/>
+          <include name="getDealersAPI"/>
+          <include name="getVouchersAPI"/>
+          <include name="getTroubleTicketAPI"/>
+          <include name="getDatabalanceTransferAPI"/>
+          <include name="getNotificationsAPI"/>
+          <include name="getTopupAPI"/>
+        </methods>
+      </class> <!-- core_Swagger.Swagger_Doc -->
+    </classes>
+  </test> <!-- Swagger(failed) -->
+</suite> <!-- Failed suite [COREAPI_2.5] -->

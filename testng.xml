@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="COREAPI_2.5">
+	<test name="Swagger">
+		<classes>
+			<class name="core_Swagger.Swagger_Doc" />
+			<class name="core_Swagger.Swagger" />
+		</classes>
+	</test>
+</suite>
